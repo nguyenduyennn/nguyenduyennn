@@ -1,0 +1,170 @@
+/* CSS Document */
+body{ 
+     width:1000px; 
+	 height:1500px; 
+	 margin:auto;
+}
+.menu{
+	 
+     width:1000px; 
+	 height:50px; 
+	 background:#000;
+}
+.menu a{ 
+   color:#FFF;
+}
+
+.menu ul{ 
+     margin: 0px; 
+	 float:left;
+	 padding:0px;
+	
+	 }
+.menu ul li{  
+     list-style:none; 
+	 float:left;
+	
+	 color:#000; 
+	
+	 
+	  
+}
+.menu ul li a{ 
+       padding: 10px 10px 01px 10px; 
+	   text-decoration:none;
+	   display:block; 
+	   height:30px; 
+	   padding: 0px 10px 0px 10px; 
+	   border-right: 1px solid #006; 
+	  
+}
+.menu li:hover #submenu{ 
+   display:block;
+   postion:ralative;
+
+}
+.menu #submenu{ 
+   positon: absolute; 
+   left: 250px; 
+   top: 1; 
+   display:none; 
+  
+  
+}
+.menu ul#active li a:hover{ 
+    background:#09F;
+
+	transiton:ease-in 0.4s; 
+	-moz-transition: ease-in 0.4s; 
+	-webkit-transition: ease-in 0.4s; 
+	display:block;
+
+	
+}
+
+ul#submenu{ 
+   width:300px; 
+   dispaly:none; 
+   height:50px; 
+   background:#09F; 
+   position:absolute;
+ 
+}
+ul#submenu li{ 
+  list-style:none; 
+ display:block; 
+}
+ul#submenu li a{ 
+   text-decoration:none; 
+   display:block; 
+   color:#FFF; 
+   border: 1px solid #FFF; 
+   font-size: 16px; 
+   line-height:30px; 
+   text-indent:8px; 
+}
+ul#active li:hover ul#submenu{ 
+   display:block; 
+ 
+}
+
+
+.Banner{ 
+     width:1000px; 
+	 height:150px; 
+	 background:#00F; 
+}
+
+
+.content{ 
+     width:750px; 
+	 height:850px; 
+	 background:#09F;
+}
+
+	
+
+.left{ 
+      width:1000px; 
+	  height:850px; 
+	  background:#FFF;
+	  float:left; 
+}
+.right{ 
+     width:250px; 
+	 height:850px;
+	 background:#FFF;
+	 float:right;
+	 color:#FFF;
+}
+
+.submenu{ 
+    list-style=none; 
+}
+.submenu li a{ 
+    text-decoration: none; 
+}
+.submenu li a:hover{ 
+   background:#06F; 
+   color:#FFF; 
+   width:100;
+}
+   
+
+table tr td{ 
+  color:#00F; 
+}
+h2{ 
+   font-size: 20px; 
+}
+.submenu{ 
+    list-style=none; 
+}
+.submenu li a{ 
+    text-decoration: none; 
+}
+.submenu li a:hover{ 
+   background:#06F; 
+   color:#FFF; 
+   width:100;
+}
+   
+
+
+
+.footer{ 
+      width:980px; 
+	  height:160px; 
+	  background:#000;
+	
+}
+.footer-text{ 
+    text-align: center; 
+	margin:0px;
+}
+.menu-item{ 
+   color: #FFF;
+}
+.menu-item.active{ 
+    color:#FFD700;
+}
